@@ -1,0 +1,47 @@
+h1{color: lightsalmon;}
+.header{
+background-color: darkgoldenrod;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    border: ridge  8px;
+border-color: firebrick;
+background-color: gold;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+.facts{
+    border:ridge 4px;
+border-color: firebrick;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: indigo;
+    margin-bottom: 5px;
+}
+.list{
+    color:#ffffff;
+    list-style-type: square;
+}
+.Artists{
+    border: 4px solid;
+border-color: firebrick;
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: indigo;
+}
+.list2{
+    color:#ffffff;
+    list-style-type: upper-roman;
+}
+a:hover{
+ background-color:#fe0d37 ;
+ border: dashed;
+ border-color: teal;
+}
